@@ -1,0 +1,20 @@
+{
+  "name": "pctest",
+  "version": "1.0.0",
+  "dependencies": {
+    "install": "^0.13.0",
+    "cucumber": "^7.0.0-rc.0",
+    "npm": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.16",
+    "@types/cucumber": "^7.0.0",
+    "chai": "^4.3.4",
+    "protractor-cucumber-framework": "^8.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lavkesh Dwivedi",
+  "license": "ISC"
+}
