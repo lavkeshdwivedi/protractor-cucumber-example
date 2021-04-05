@@ -5,12 +5,11 @@ exports.config = {
   capabilities: {
     browserName: 'chrome'
   },
-
   specs: [
     'features/*.feature'
   ],
 
   cucumberOpts: {
-    require: ['features/steps/*.steps.js']
+    require: ['features/steps/*.steps.js'],
   }
 };
