@@ -11,6 +11,6 @@ exports.config = {
   ],
 
   cucumberOpts: {
-    require: ['features/steps/test.steps.js']
+    require: ['features/steps/*.steps.js']
   }
 };

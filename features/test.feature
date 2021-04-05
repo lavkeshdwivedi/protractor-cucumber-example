@@ -6,3 +6,7 @@ Feature: Running Cucumber with Protractor
     Scenario: Protractor and Cucumber Test
         Given I go to "https://angular.io"
         Then I should be able to navigate the website
+    
+    Scenario: Hello world!
+        Given I type "Hello World!"
+        Then the test should succeed
